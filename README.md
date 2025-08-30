@@ -26,10 +26,18 @@ Welcome to my GitHub! I build AI/ML projects, explore data science, and practice
 [![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-orange?style=for-the-badge&logo=streamlit)](https://sentiment-analyzer-demo-3nihrefzwyhm49xgetgwuu.streamlit.app/)  
 [![View Code](https://img.shields.io/badge/GitHub-Code-blue?style=for-the-badge&logo=github)](https://github.com/atuli93/sentiment-analyzer-demo)
 
+
+---
+
+
 ### 2. Password Strength Checker
 ![Password Strength Checker](images/project2.png)  
 **Description:** Flask app to check password strength in real-time.  
 [![View Code](https://img.shields.io/badge/GitHub-Code-blue?style=for-the-badge&logo=github)](https://github.com/atuli93/Password-Strength-Checker)
+
+
+---
+
 
 ### 3. Phishing URL Detector
 ![BlockAssist Guide](images/project3.png)  
