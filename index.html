@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atul's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #bbb;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .project:hover {
+      transform: scale(1.03);
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+    footer a {
+      color: #00aced;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Atul</h1>
+    <p>Software Developer | Portfolio</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Atul 👋. Welcome to my portfolio website!  
+        I enjoy building software, experimenting with AI/ML, and contributing to open-source projects.  
+        Below are some of my highlighted works.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <img src="images/project1.png" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>A brief description of your first project.</p>
+        </div>
+        <div class="project">
+          <img src="images/project2.png" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>A brief description of your second project.</p>
+        </div>
+        <div class="project">
+          <img src="images/project3.png" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>A brief description of your third project.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me:</p>
+      <ul>
+        <li>Email: <a href="mailto:atul@example.com">atul@example.com</a></li>
+        <li>GitHub: <a href="https://github.com/atuli93" target="_blank">github.com/atuli93</a></li>
+        <li>LinkedIn: <a href="#" target="_blank">linkedin.com/in/atul</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Atul — Built with ❤️ on GitHub Pages</p>
+  </footer>
+</body>
+</html>
