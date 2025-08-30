@@ -5,179 +5,166 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atul | Portfolio</title>
   <style>
-    /* ===== Reset & Base Styles ===== */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
       line-height: 1.6;
       background: #f9f9f9;
       color: #333;
     }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-
-    /* ===== Header ===== */
     header {
-      background: #007acc;
+      background: #222;
       color: #fff;
-      padding: 2rem 1rem;
+      padding: 20px 0;
       text-align: center;
     }
     header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+      margin: 0;
     }
     header p {
-      font-size: 1.2rem;
-      font-weight: 300;
+      margin: 5px 0 0;
     }
-
-    /* ===== Section Layout ===== */
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
     section {
-      padding: 2rem 1rem;
+      padding: 40px 20px;
       max-width: 900px;
       margin: auto;
     }
-    section h2 {
-      margin-bottom: 1rem;
-      color: #007acc;
-      border-bottom: 2px solid #007acc;
+    h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .skills span {
       display: inline-block;
-      padding-bottom: 0.3rem;
-    }
-
-    /* ===== About ===== */
-    #about p {
-      margin-top: 1rem;
-      font-size: 1.1rem;
-    }
-
-    /* ===== Projects ===== */
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.5rem;
-      margin-top: 1rem;
+      background: #eee;
+      padding: 8px 15px;
+      margin: 5px;
+      border-radius: 5px;
+      font-weight: bold;
     }
     .project {
       background: #fff;
-      padding: 1rem;
-      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease;
-    }
-    .project:hover {
-      transform: translateY(-5px);
     }
     .project img {
-      width: 100%;
-      height: auto;
-      border-radius: 6px;
-      margin-bottom: 0.8rem;
+      max-width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
     }
-    .project h3 {
-      margin-bottom: 0.5rem;
-      font-size: 1.3rem;
-      color: #333;
+    .project a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
     }
-    .project p {
-      margin-bottom: 0.8rem;
-      font-size: 0.95rem;
+    .project a:hover {
+      text-decoration: underline;
     }
-
-    /* ===== Contact ===== */
-    #contact ul {
-      list-style: none;
-      margin-top: 1rem;
-    }
-    #contact li {
-      margin: 0.5rem 0;
-    }
-
-    /* ===== Footer ===== */
     footer {
-      background: #333;
+      background: #222;
       color: #fff;
       text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-    footer p {
-      font-size: 0.9rem;
+      padding: 15px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-
-  <!-- ===== Header ===== -->
   <header>
     <h1>Atul</h1>
-    <p>Software Developer | Portfolio</p>
+    <p>Software Developer | AI/ML Enthusiast</p>
+    <img src="https://via.placeholder.com/150" alt="Atul Profile" style="border-radius:50%; margin-top:10px;">
   </header>
 
-  <!-- ===== About Section ===== -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <section id="about">
     <h2>About Me</h2>
-    <p>
-      Hi, I'm Atul 👋. Welcome to my portfolio website!  
-      I enjoy building software, experimenting with AI/ML, and contributing to open-source projects.  
-      Here you’ll find some of my highlighted works.
-    </p>
+    <p>Hi, I'm Atul 👋. I enjoy building software, experimenting with AI/ML, and contributing to open-source projects. This website showcases some of my highlighted works and skills.</p>
   </section>
 
-  <!-- ===== Projects Section ===== -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <span>Python</span>
+    <span>JavaScript</span>
+    <span>React</span>
+    <span>AI/ML</span>
+    <span>Git & GitHub</span>
+    <span>HTML & CSS</span>
+  </section>
+
   <section id="projects">
     <h2>Projects</h2>
-    <div class="projects">
-      
-      <div class="project">
-        <img src="images/project1.png" alt="Project 1 Screenshot">
-        <h3>Project 1</h3>
-        <p>A web-based password strength checker built with Python and JavaScript. It helps users create strong, secure passwords.</p>
-        <a href="https://github.com/atuli93/project1" target="_blank">🔗 View on GitHub</a>
-      </div>
 
-      <div class="project">
-        <img src="images/project2.png" alt="Project 2 Screenshot">
-        <h3>Project 2</h3>
-        <p>An AI-powered chatbot that learns from user interactions. Built with PyTorch and deployed on a simple web app.</p>
-        <a href="https://github.com/atuli93/project2" target="_blank">🔗 View on GitHub</a>
-      </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/600x300" alt="Password Strength Checker">
+      <h3>Password Strength Checker</h3>
+      <p>A web-based password strength checker built with Python and JavaScript. Helps users create strong, secure passwords.</p>
+      <a href="https://github.com/atuli93/Password-Strength-Checker" target="_blank">🔗 View on GitHub</a>
+    </div>
 
-      <div class="project">
-        <img src="images/project3.png" alt="Project 3 Screenshot">
-        <h3>Project 3</h3>
-        <p>A personal finance tracker app made with React and Firebase. It helps users manage budgets and track expenses easily.</p>
-        <a href="https://github.com/atuli93/project3" target="_blank">🔗 View on GitHub</a>
-      </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/600x300" alt="Sentiment Analyzer Demo">
+      <h3>Sentiment Analyzer Demo</h3>
+      <p>An AI-powered sentiment analysis tool that classifies text as positive, negative, or neutral.</p>
+      <a href="https://github.com/atuli93/sentiment-analyzer-demo" target="_blank">🔗 View on GitHub</a>
+    </div>
 
+    <div class="project">
+      <img src="https://via.placeholder.com/600x300" alt="BlockAssist Guide">
+      <h3>BlockAssist Guide</h3>
+      <p>An AI assistant that learns from user actions in Minecraft. Experiment in assistance learning and human preference alignment.</p>
+      <a href="https://github.com/atuli93/BlockAssist-Guide" target="_blank">🔗 View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <img src="https://via.placeholder.com/600x300" alt="Phishing URL Detector">
+      <h3>Phishing URL Detector</h3>
+      <p>A machine learning tool that detects phishing websites by analyzing URL patterns.</p>
+      <a href="https://github.com/atuli93/phishing-url-detector" target="_blank">🔗 View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <img src="https://via.placeholder.com/600x300" alt="Portfolio Repo">
+      <h3>Portfolio Website</h3>
+      <p>This personal portfolio website, built with HTML, CSS, and GitHub Pages.</p>
+      <a href="https://github.com/atuli93/atuli93" target="_blank">🔗 View on GitHub</a>
     </div>
   </section>
 
-  <!-- ===== Contact Section ===== -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Feel free to reach out to me:</p>
-    <ul>
-      <li>Email: <a href="mailto:atul@example.com">atul@example.com</a></li>
-      <li>GitHub: <a href="https://github.com/atuli93" target="_blank">github.com/atuli93</a></li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/atul" target="_blank">linkedin.com/in/atul</a></li>
-    </ul>
+    <p>Email: <a href="mailto:atul70884@gmail.com">atul70884@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/atuli93" target="_blank">github.com/atuli93</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/atuli93" target="_blank">linkedin.com/in/atuli93</a></p>
   </section>
 
-  <!-- ===== Footer ===== -->
   <footer>
     <p>© 2025 Atul — Built with ❤️ on GitHub Pages</p>
   </footer>
-
 </body>
 </html>
