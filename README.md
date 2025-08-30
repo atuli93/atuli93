@@ -21,25 +21,21 @@ Welcome to my GitHub! I build AI/ML projects, explore data science, and practice
 ## 📂 Projects
 
 ### 1. Sentiment Analyzer Demo
-![Sentiment Analyzer](ml_demo/images/project1.png)  
+![Sentiment Analyzer](images/project1.png)  
 **Description:** Web-based AI/ML demo predicting text sentiment (Positive, Negative, Neutral).  
 [![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-orange?style=for-the-badge&logo=streamlit)](https://sentiment-analyzer-demo-3nihrefzwyhm49xgetgwuu.streamlit.app/)  
 [![View Code](https://img.shields.io/badge/GitHub-Code-blue?style=for-the-badge&logo=github)](https://github.com/atuli93/sentiment-analyzer-demo)
 
 ### 2. Password Strength Checker
-![Password Strength Checker](images/project1.png)  
+![Password Strength Checker](images/project2.png)  
 **Description:** Flask app to check password strength in real-time.  
 [![View Code](https://img.shields.io/badge/GitHub-Code-blue?style=for-the-badge&logo=github)](https://github.com/atuli93/Password-Strength-Checker)
 
 ### 3. Phishing URL Detector
-![Phishing URL Detector](images/project2.png)  
+![BlockAssist Guide](images/project3.png)  
 **Description:** Detects phishing URLs using Python & ML.  
 [![View Code](https://img.shields.io/badge/GitHub-Code-blue?style=for-the-badge&logo=github)](https://github.com/atuli93/phishing-url-detector)
 
-### 4. BlockAssist Guide
-![BlockAssist Guide](images/project3.png)  
-**Description:** AI assistant guide for Minecraft building automation.  
-[![View Code](https://img.shields.io/badge/GitHub-Code-blue?style=for-the-badge&logo=github)](https://github.com/atuli93/BlockAssist-Guide)
 
 ---
 
