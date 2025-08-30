@@ -1,4 +1,4 @@
-# Hi, I'm Atul 👋
+# Hi, I'm Atul Kumar👋
 
 **BCA Student | AI & ML Enthusiast | Cybersecurity & Ethical Hacker**
 
