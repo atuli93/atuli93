@@ -1,6 +1,6 @@
 # Hi, I'm Atul Kumar👋
 
-**B.Tech CSE | AI & ML Enthusiast | Cybersecurity & Ethical Hacker**
+**BCA | AI & ML Enthusiast | Cybersecurity & Ethical Hacker**
 
 Welcome to my GitHub! I build AI/ML projects, explore data science, and practice ethical hacking. I enjoy creating tools that solve real-world problems and sharing knowledge with the community.
 
